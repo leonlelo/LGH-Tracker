@@ -135,6 +135,24 @@ body {
   max-width: 40rem;
 }
 
+.g15-nff-notice {
+  margin: 0 0 1rem;
+  padding: 0.75rem 0.9rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--text);
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: 10px;
+  max-width: 42rem;
+}
+
+.g15-nff-notice strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #fbbf24;
+}
+
 .stats-panel {
   min-width: 0;
   overflow-x: hidden;

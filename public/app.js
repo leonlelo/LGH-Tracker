@@ -10,7 +10,7 @@ const VIEW_DISPLAY = {
 
 const VIEW_CONTEXT = {
   ALL: "Tallene er summert på tvers av G15 og G16 (samme spiller telles én gang).",
-  "LHG G15": "Kun statistikk som er registrert på G15-laget hos NFF.",
+  "LHG G15": "Kun statistikk som er hentet for G15-laget hos NFF (se melding under om manglende tabell).",
   "LHG G16": "Kun statistikk som er registrert på G16-laget hos NFF.",
 };
 
@@ -19,6 +19,7 @@ const viewSwitcher = document.getElementById("viewSwitcher");
 const updatedAt = document.getElementById("updatedAt");
 const activeViewValue = document.getElementById("activeViewValue");
 const statsPanelContext = document.getElementById("statsPanelContext");
+const g15NffNotice = document.getElementById("g15NffNotice");
 
 function compare(a, b, key, direction) {
   const factor = direction === "asc" ? 1 : -1;
@@ -70,6 +71,9 @@ function setViewButtons() {
   const label = VIEW_DISPLAY[currentView] || currentView;
   activeViewValue.textContent = label;
   statsPanelContext.textContent = VIEW_CONTEXT[currentView] || "";
+  if (g15NffNotice) {
+    g15NffNotice.hidden = currentView !== "LHG G15";
+  }
 }
 
 function refreshView() {
