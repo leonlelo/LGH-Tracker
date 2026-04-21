@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b0d11" />
+    <title>LHG Fotballstatistikk</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">LHG Stats</div>
+      <div class="topbar-spacer" aria-hidden="true"></div>
+      <div class="status-pill">Oppdateres daglig</div>
+    </header>
+
+    <main class="layout">
+      <div class="page-main">
+        <div class="view-switcher-wrap grid-switch">
+          <p class="active-context" aria-live="polite">
+            <span class="active-context-label">Du ser på</span>
+            <span class="active-context-value" id="activeViewValue">LHG G15 + G16</span>
+          </p>
+          <p class="view-switcher-label">Bytt lag</p>
+          <div class="view-switcher" id="viewSwitcher" role="tablist" aria-label="Velg lag">
+            <button type="button" class="view-btn" data-view="LHG G15" role="tab" aria-selected="false">
+              LHG G15
+            </button>
+            <button type="button" class="view-btn" data-view="ALL" role="tab" aria-selected="true">
+              LHG G15 + G16
+            </button>
+            <button type="button" class="view-btn" data-view="LHG G16" role="tab" aria-selected="false">
+              LHG G16
+            </button>
+          </div>
+        </div>
+
+        <section class="panel controls grid-head">
+          <div>
+            <h1>LHG Fotballstatistikk</h1>
+            <p class="muted">Lunner / Harestua / Grua</p>
+            <p class="muted small">Nettsiden oppdateres automatisk hver 24. time.</p>
+          </div>
+          <span id="updatedAt" class="muted updated-at"></span>
+        </section>
+
+        <aside class="cards grid-cards">
+          <article class="panel">
+            <h3>Toppscorere</h3>
+            <ul id="topScorers"></ul>
+          </article>
+          <article class="panel">
+            <h3>Flest gule kort</h3>
+            <ul id="yellowCards"></ul>
+          </article>
+          <article class="panel">
+            <h3>Flest røde kort</h3>
+            <ul id="redCards"></ul>
+          </article>
+        </aside>
+
+        <section class="panel stats-panel grid-stats">
+          <div class="stats-panel-head">
+            <h2>Spillerstatistikk</h2>
+            <p class="stats-panel-context muted" id="statsPanelContext"></p>
+          </div>
+          <div class="table-wrap">
+            <table id="statsTable">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th data-key="player">Spiller</th>
+                  <th data-key="team">Lag</th>
+                  <th data-key="goals">Mål</th>
+                  <th data-key="yellowCards">Gule</th>
+                  <th data-key="redCards">Røde</th>
+                  <th data-key="matches">Kamper</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <p class="table-hint muted">Scroll til siden for hele tabellen</p>
+        </section>
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
