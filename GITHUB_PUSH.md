@@ -1,21 +1,33 @@
-# Push til GitHub (én gang)
+# Opprett repo og push (automatisk)
 
-Repoet finnes ikke på `github.com/leonlelo/nff-tracker` enda. Gjør dette:
+Jeg kan ikke opprette repo på GitHub uten innlogging fra din maskin. Bruk scriptet:
 
-1. Gå til **https://github.com/new**
-2. **Repository name:** f.eks. `nff-tracker` (eller annet navn)
-3. La den være **tom** (ingen README / .gitignore fra GitHub)
-4. Klikk **Create repository**
+1. Lag et **Personal access token** (classic):  
+   https://github.com/settings/tokens  
+   Hak av **repo** (full kontroll på private repos er nok med `repo`-scope for å opprette og pushe).
 
-5. I terminal, i mappen `nff tracker`:
+2. I PowerShell:
 
 ```powershell
-git remote add origin https://github.com/DITT-BRUKERNAVN/nff-tracker.git
-git push -u origin main
+cd "C:\Users\leonm\code\nff tracker"
+$env:GITHUB_TOKEN = "lim_inn_token_her"
+node scripts/create-repo-and-push.mjs
 ```
 
-(Bytt `DITT-BRUKERNAVN` og repo-navn om du valgte noe annet.)
+Valgfritt annet repo-navn:
 
-Etter første push: slå på **GitHub Actions** for repoet (Settings → Actions → General → tillat workflows om det spørres).
+```powershell
+node scripts/create-repo-and-push.mjs mitt-repo-navn
+```
 
-Daglig oppdatering av `public/stats.json` skjer da automatisk via `.github/workflows/update-stats.yml`.
+Scriptet oppretter `nff-tracker` under GitHub-brukeren tokenet tilhører, pusher `main`, og setter `origin` uten token i URL etterpå.
+
+---
+
+## Manuelt (uten script)
+
+1. **https://github.com/new** → tomt repo, f.eks. `nff-tracker`
+2. `git remote add origin https://github.com/BRUKER/nff-tracker.git`
+3. `git push -u origin main`
+
+Slå på **GitHub Actions** på repoet så den daglige syncen kjører (`.github/workflows/update-stats.yml`).
