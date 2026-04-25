@@ -3,8 +3,18 @@
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-04-24T04:50:56.416Z",
+  "fetchedAt": "2026-04-25T04:32:15.041Z",
   "players": [
+    {
+      "player": "Aleksander Skeie Mylsbråten",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
     {
       "player": "Eirik Kjørven Berg",
       "team": "LHG G16",
@@ -13,7 +23,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Goch Mayual",
@@ -23,7 +33,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Hans Olav Skau",
@@ -33,7 +43,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Magnus-Thiago Nordgård Sahertian",
@@ -43,7 +53,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Daniel Meling Habberstad",
@@ -53,10 +63,60 @@
       "assists": 0,
       "yellowCards": 1,
       "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Andreas Larmerud",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Kasper Skøien Johannessen",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Peder Flatla",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Rasmus Pedersen",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Mohammad Jonma Walid Hmidi",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
       "matches": 1
     },
     {
-      "player": "Aleksander Skeie Mylsbråten",
+      "player": "Ahmad Ahmod Khit",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
@@ -66,7 +126,27 @@
       "matches": 1
     },
     {
-      "player": "Andreas Larmerud",
+      "player": "Oscar Johan Jørgensen",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Sindre Urholmen Johansen",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Stein Olav Nygaard",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
@@ -87,36 +167,6 @@
     },
     {
       "player": "Jørgen Skeie Myrvang",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
-    },
-    {
-      "player": "Kasper Skøien Johannessen",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
-    },
-    {
-      "player": "Peder Flatla",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
-    },
-    {
-      "player": "Rasmus Pedersen",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
