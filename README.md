@@ -22,7 +22,7 @@ Nettsiden leser **`/stats.json`** (statisk fil). Ingen Blob eller database er n�
 
 ## Daglig oppdatering (uten Blob)
 
-[`.github/workflows/update-stats.yml`](.github/workflows/update-stats.yml) kjører **`npm run sync:data`** én gang per døgn (cron) og **committer `public/stats.json`** til repoet hvis noe er endret. Vercel deployer vanligvis automatisk på ny push.
+[`.github/workflows/update-stats.yml`](.github/workflows/update-stats.yml) kjører **`npm run sync:data`** én gang per døgn (cron **19:30 UTC** ≈ **21:30** norsk sommertid (CEST), **ca. 20:30** om vintertid (CET)) og **committer `public/stats.json`** til repoet hvis noe er endret. Vercel deployer vanligvis automatisk på ny push.
 
 Du kan også kjøre jobben manuelt under **Actions → Oppdater statistikk fra NFF → Run workflow**.
 

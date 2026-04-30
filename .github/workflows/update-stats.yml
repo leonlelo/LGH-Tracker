@@ -2,8 +2,8 @@ name: Oppdater statistikk fra NFF
 
 on:
   schedule:
-    # 02:00 UTC ≈ 03:00 Norge (vintertid). Juster ved behov.
-    - cron: "0 2 * * *"
+    # UTC: 19:30 = 21:30 norsk sommertid (CEST). Om vintertid (CET) ca. 20:30 Oslo.
+    - cron: "30 19 * * *"
   workflow_dispatch:
 
 permissions:

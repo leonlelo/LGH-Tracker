@@ -41,7 +41,8 @@ async function bootstrapData() {
   }
 }
 
-cron.schedule("0 3 * * *", async () => {
+// Lokal tid på maskinen (samme «kveld»-idé som GitHub-workflow ~21:30 Norge).
+cron.schedule("30 21 * * *", async () => {
   const stats = await fetchNffStats();
   await writeStats(stats);
   console.log(`[cron] Daily sync done at ${new Date().toISOString()}`);
