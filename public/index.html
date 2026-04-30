@@ -44,43 +44,21 @@
           <span id="updatedAt" class="muted updated-at"></span>
         </section>
 
-        <aside class="cards grid-cards">
-          <article class="panel">
-            <h3>Toppscorere</h3>
-            <ul id="topScorers"></ul>
-          </article>
-          <article class="panel">
-            <h3>Flest gule kort</h3>
-            <ul id="yellowCards"></ul>
-          </article>
-          <article class="panel">
-            <h3>Flest røde kort</h3>
-            <ul id="redCards"></ul>
-          </article>
-        </aside>
-
         <section class="panel stats-panel grid-stats">
           <div class="stats-panel-head">
             <h2>Spillerstatistikk</h2>
             <p class="stats-panel-context muted" id="statsPanelContext"></p>
-            <p class="g15-nff-notice" id="g15NffNotice" hidden>
-              <strong>G15: tall fra kamprapporter.</strong>
-              NFF har ofte ikke ferdig spillerstatistikk-tabell for G15. Her summerer vi i stedet mål, kort og kamper
-              fra <strong>kamptropp</strong> og <strong>kamphendelser</strong> for hver ferdigspilt kamp, med samme
-              kolonner som for G16.
-            </p>
           </div>
           <div class="table-wrap">
             <table id="statsTable">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th data-key="player">Spiller</th>
-                  <th data-key="team">Lag</th>
-                  <th data-key="goals">Mål</th>
-                  <th data-key="yellowCards">Gule</th>
-                  <th data-key="redCards">Røde</th>
-                  <th data-key="matches">Kamper</th>
+                  <th>Spiller</th>
+                  <th>Mål</th>
+                  <th>Gule</th>
+                  <th>Røde</th>
+                  <th>Kamper</th>
                 </tr>
               </thead>
               <tbody></tbody>

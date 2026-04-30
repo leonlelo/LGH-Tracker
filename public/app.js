@@ -1,5 +1,4 @@
 let rawPlayers = [];
-let sortState = { key: "goals", direction: "desc" };
 let currentView = "ALL";
 
 const VIEW_DISPLAY = {
@@ -20,18 +19,48 @@ const viewSwitcher = document.getElementById("viewSwitcher");
 const updatedAt = document.getElementById("updatedAt");
 const activeViewValue = document.getElementById("activeViewValue");
 const statsPanelContext = document.getElementById("statsPanelContext");
-const g15NffNotice = document.getElementById("g15NffNotice");
 
-function compare(a, b, key, direction) {
-  const factor = direction === "asc" ? 1 : -1;
-  const aValue = a[key];
-  const bValue = b[key];
+/** Kull etter fødselsår: 010 / 011 / 012 — fullt navn for unntak (unngår feil ved flere med samme fornavn). */
+const KULL_010 = new Set([
+  "Daniel Meling Habberstad",
+  "Hans Olav Skau",
+  "Marius Fredriksen Bergersen",
+  "Peder Flatla",
+]);
 
-  if (typeof aValue === "number" && typeof bValue === "number") {
-    return (aValue - bValue) * factor;
+const KULL_012 = new Set([
+  "Lukas Isaak", // Lucas
+]);
+
+function kullForPlayer(fullName) {
+  const n = String(fullName || "").trim();
+  if (KULL_010.has(n)) {
+    return "010";
   }
+  if (KULL_012.has(n)) {
+    return "012";
+  }
+  return "011";
+}
 
-  return String(aValue).localeCompare(String(bValue), "no") * factor;
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function formatPlayerWithKull(fullName) {
+  const k = kullForPlayer(fullName);
+  return `${escapeHtml(fullName)} (${escapeHtml(k)})`;
+}
+
+function compareGoalsDesc(a, b) {
+  if (b.goals !== a.goals) {
+    return b.goals - a.goals;
+  }
+  return String(a.player).localeCompare(String(b.player), "no");
 }
 
 function mergePlayers(players) {
@@ -72,27 +101,18 @@ function setViewButtons() {
   const label = VIEW_DISPLAY[currentView] || currentView;
   activeViewValue.textContent = label;
   statsPanelContext.textContent = VIEW_CONTEXT[currentView] || "";
-  if (g15NffNotice) {
-    g15NffNotice.hidden = currentView !== "LHG G15";
-  }
 }
 
 function refreshView() {
   renderTable();
-  const currentPlayers = playersForView();
-  renderList("topScorers", currentPlayers, "goals");
-  renderList("yellowCards", currentPlayers, "yellowCards");
-  renderList("redCards", currentPlayers, "redCards");
 }
 
 function renderTable() {
-  const rows = playersForView().sort((a, b) =>
-    compare(a, b, sortState.key, sortState.direction)
-  );
+  const rows = playersForView().sort(compareGoalsDesc);
 
   if (!rows.length) {
     tableBody.innerHTML =
-      '<tr><td colspan="7">Ingen statistikk tilgjengelig for valgt lag enda.</td></tr>';
+      '<tr><td colspan="6">Ingen statistikk tilgjengelig for valgt lag enda.</td></tr>';
     return;
   }
 
@@ -101,8 +121,7 @@ function renderTable() {
       (p, index) => `
       <tr>
         <td class="rank-cell">${index + 1}</td>
-        <td>${p.player}</td>
-        <td>${p.team}</td>
+        <td>${formatPlayerWithKull(p.player)}</td>
         <td class="metric-cell">${p.goals}</td>
         <td class="metric-cell">${p.yellowCards}</td>
         <td class="metric-cell">${p.redCards}</td>
@@ -111,48 +130,6 @@ function renderTable() {
     `
     )
     .join("");
-}
-
-function renderList(elementId, players, metricKey) {
-  const target = document.getElementById(elementId);
-  const top = [...players]
-    .filter((p) => p[metricKey] > 0)
-    .sort((a, b) => b[metricKey] - a[metricKey])
-    .slice(0, 8);
-
-  if (!top.length) {
-    target.innerHTML = '<li class="list-empty">Ingen data enda</li>';
-    return;
-  }
-
-  target.innerHTML = top
-    .map(
-      (p, index) => `
-        <li>
-          <span class="list-rank">${index + 1}</span>
-          <span class="list-name">${p.player} <span class="muted">(${p.team})</span></span>
-          <span class="list-value">${p[metricKey]}</span>
-        </li>
-      `
-    )
-    .join("");
-}
-
-function setupSorting() {
-  document.querySelectorAll("#statsTable th").forEach((header) => {
-    header.addEventListener("click", () => {
-      const key = header.dataset.key;
-      if (!key) {
-        return;
-      }
-      const sameColumn = sortState.key === key;
-      sortState = {
-        key,
-        direction: sameColumn && sortState.direction === "desc" ? "asc" : "desc",
-      };
-      renderTable();
-    });
-  });
 }
 
 viewSwitcher.addEventListener("click", (event) => {
@@ -195,7 +172,6 @@ async function loadStats() {
   }
 }
 
-setupSorting();
 loadStats().catch((error) => {
   updatedAt.textContent = `Kunne ikke hente data: ${error.message}`;
 });
