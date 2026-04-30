@@ -1,10 +1,240 @@
 {
   "source": [
-    "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper",
+    "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper (kamper+hendelser)",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-04-30T05:25:39.168Z",
+  "fetchedAt": "2026-04-30T22:14:46.895Z",
   "players": [
+    {
+      "player": "Sebastian Kjær-Larssen",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Kasper Skøien Johannessen",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Rasmus Pedersen",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Leon Dørum Mathiesen",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Jørgen Skeie Myrvang",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Andreas Larmerud",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Vemund Skjaker-Westby",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Gustav Ruud Nordgård",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Aleksander Skeie Mylsbråten",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Aref Mesti",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Oscar Johan Jørgensen",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Magnus-Thiago Nordgård Sahertian",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 3,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Yared Michael",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Eirik Kjørven Berg",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 2,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Christopher Rabbe-Schanzleh",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Sindre Urholmen Johansen",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Peder Flatla",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Daniel Meling Habberstad",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Stein Olav Nygaard",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Marius Fredriksen Bergersen",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Ahmed Abdelhannan Hussein",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Lukas Isaak",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
+    {
+      "player": "Mohammad Jonma Walid Hmidi",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 3,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
+    },
     {
       "player": "Aleksander Skeie Mylsbråten",
       "team": "LHG G16",
@@ -195,6 +425,5 @@
       "redCards": 0,
       "matches": 1
     }
-  ],
-  "warning": "Ingen statistikk-tabell funnet for LHG G15."
+  ]
 }

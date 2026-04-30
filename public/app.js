@@ -10,7 +10,8 @@ const VIEW_DISPLAY = {
 
 const VIEW_CONTEXT = {
   ALL: "Tallene er summert på tvers av G15 og G16 (samme spiller telles én gang).",
-  "LHG G15": "Kun statistikk som er hentet for G15-laget hos NFF (se melding under om manglende tabell).",
+  "LHG G15":
+    "Statistikk er beregnet fra NFF sine kamprapporter (kamptropp + kamphendelser) for hver ferdigspilt kamp.",
   "LHG G16": "Kun statistikk som er registrert på G16-laget hos NFF.",
 };
 

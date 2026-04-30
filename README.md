@@ -28,7 +28,7 @@ Du kan også kjøre jobben manuelt under **Actions → Oppdater statistikk fra N
 
 ## NFF / scraping
 
-Logikk ligger i `src/services/nffScraper.js`.
+Logikk ligger i `src/services/nffScraper.js`. **G16** leses fra spillerstatistikk-tabellen. **G15** aggregeres fra alle ferdigspilte kamper (kamptropp + kamphendelser på fotball.no), fordi tabellen ofte mangler.
 
 ## Manuell sync lokalt
 
