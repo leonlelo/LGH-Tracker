@@ -3,7 +3,7 @@
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper (kamper+hendelser)",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-05-10T20:10:13.825Z",
+  "fetchedAt": "2026-05-11T21:00:47.421Z",
   "players": [
     {
       "player": "Sebastian Kjær-Larssen",
@@ -13,7 +13,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Kasper Skøien Johannessen",
@@ -23,7 +23,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Rasmus Pedersen",
@@ -33,7 +33,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Leon Dørum Mathiesen",
@@ -43,7 +43,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Jørgen Skeie Myrvang",
@@ -63,7 +63,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Vemund Skjaker-Westby",
@@ -73,7 +73,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Gustav Ruud Nordgård",
@@ -119,11 +119,11 @@
       "player": "Magnus-Thiago Nordgård Sahertian",
       "team": "LHG G15",
       "ageGroup": "LHG G15",
-      "goals": 4,
+      "goals": 5,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Yared Michael",
@@ -133,7 +133,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Eirik Kjørven Berg",
@@ -143,7 +143,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Christopher Rabbe-Schanzleh",
@@ -153,7 +153,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Sindre Urholmen Johansen",
@@ -163,7 +163,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Peder Flatla",
@@ -189,11 +189,11 @@
       "player": "Stein Olav Nygaard",
       "team": "LHG G15",
       "ageGroup": "LHG G15",
-      "goals": 1,
+      "goals": 2,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Marius Fredriksen Bergersen",
@@ -233,7 +233,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Magnus-Thiago Nordgård Sahertian",
