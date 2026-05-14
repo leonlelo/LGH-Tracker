@@ -3,7 +3,7 @@
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper (kamper+hendelser)",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-05-13T21:07:56.752Z",
+  "fetchedAt": "2026-05-14T20:53:48.412Z",
   "players": [
     {
       "player": "Sebastian Kjær-Larssen",
@@ -13,7 +13,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 2
     },
     {
       "player": "Kasper Skøien Johannessen",
@@ -23,7 +23,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 2
     },
     {
       "player": "Rasmus Pedersen",
@@ -53,7 +53,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 2
     },
     {
       "player": "Andreas Larmerud",
@@ -63,7 +63,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 3
     },
     {
       "player": "Vemund Skjaker-Westby",
@@ -73,7 +73,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 2
     },
     {
       "player": "Gustav Ruud Nordgård",
@@ -83,7 +83,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 1
     },
     {
       "player": "Aleksander Skeie Mylsbråten",
@@ -93,7 +93,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 1
     },
     {
       "player": "Aref Mesti",
@@ -119,11 +119,11 @@
       "player": "Magnus-Thiago Nordgård Sahertian",
       "team": "LHG G15",
       "ageGroup": "LHG G15",
-      "goals": 5,
+      "goals": 4,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 3
     },
     {
       "player": "Yared Michael",
@@ -139,11 +139,11 @@
       "player": "Eirik Kjørven Berg",
       "team": "LHG G15",
       "ageGroup": "LHG G15",
-      "goals": 3,
+      "goals": 2,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 3
     },
     {
       "player": "Christopher Rabbe-Schanzleh",
@@ -153,7 +153,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 3
     },
     {
       "player": "Sindre Urholmen Johansen",
@@ -173,7 +173,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 1
     },
     {
       "player": "Daniel Meling Habberstad",
@@ -193,7 +193,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 3
+      "matches": 2
     },
     {
       "player": "Marius Fredriksen Bergersen",
@@ -203,7 +203,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 1
     },
     {
       "player": "Ahmed Abdelhannan Hussein",
@@ -213,7 +213,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 1
     },
     {
       "player": "Lukas Isaak",
@@ -445,5 +445,6 @@
       "redCards": 0,
       "matches": 1
     }
-  ]
+  ],
+  "warning": "LHG G15: Kunne ikke lese kamp 9061873: timeout of 20000ms exceeded"
 }
