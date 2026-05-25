@@ -3,7 +3,7 @@
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper (kamper+hendelser)",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-05-24T20:31:17.466Z",
+  "fetchedAt": "2026-05-25T20:49:00.468Z",
   "players": [
     {
       "player": "Sebastian Kjær-Larssen",
@@ -23,7 +23,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 5
     },
     {
       "player": "Rasmus Pedersen",
@@ -33,7 +33,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 5
     },
     {
       "player": "Leon Dørum Mathiesen",
@@ -53,7 +53,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 5
     },
     {
       "player": "Andreas Larmerud",
@@ -63,7 +63,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 5
+      "matches": 6
     },
     {
       "player": "Vemund Skjaker-Westby",
@@ -119,11 +119,11 @@
       "player": "Magnus-Thiago Nordgård Sahertian",
       "team": "LHG G15",
       "ageGroup": "LHG G15",
-      "goals": 6,
+      "goals": 9,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 5
+      "matches": 6
     },
     {
       "player": "Yared Michael",
@@ -133,7 +133,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 5
     },
     {
       "player": "Eirik Kjørven Berg",
@@ -143,7 +143,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 5
+      "matches": 6
     },
     {
       "player": "Christopher Rabbe-Schanzleh",
@@ -161,9 +161,9 @@
       "ageGroup": "LHG G15",
       "goals": 0,
       "assists": 0,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0,
-      "matches": 3
+      "matches": 4
     },
     {
       "player": "Peder Flatla",
@@ -173,7 +173,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Daniel Meling Habberstad",
@@ -213,7 +213,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Lukas Isaak",
@@ -233,7 +233,17 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
+    },
+    {
+      "player": "Goch Mayual",
+      "team": "LHG G15",
+      "ageGroup": "LHG G15",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 1
     },
     {
       "player": "Magnus-Thiago Nordgård Sahertian",
