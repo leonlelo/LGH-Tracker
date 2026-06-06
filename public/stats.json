@@ -3,7 +3,7 @@
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper (kamper+hendelser)",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-06-05T21:08:21.428Z",
+  "fetchedAt": "2026-06-06T20:40:08.795Z",
   "players": [
     {
       "player": "Sebastian Kjær-Larssen",
@@ -253,7 +253,7 @@
       "assists": 0,
       "yellowCards": 1,
       "redCards": 0,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Eirik Kjørven Berg",
@@ -263,7 +263,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Goch Mayual",
@@ -273,7 +273,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Daniel Meling Habberstad",
@@ -282,6 +282,36 @@
       "goals": 1,
       "assists": 0,
       "yellowCards": 1,
+      "redCards": 0,
+      "matches": 7
+    },
+    {
+      "player": "Rasmus Pedersen",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "matches": 7
+    },
+    {
+      "player": "Ahmad Ahmod Khit",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 3,
+      "assists": 0,
+      "yellowCards": 2,
+      "redCards": 0,
+      "matches": 6
+    },
+    {
+      "player": "Peder Flatla",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
       "redCards": 0,
       "matches": 6
     },
@@ -306,36 +336,6 @@
       "matches": 6
     },
     {
-      "player": "Rasmus Pedersen",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 1,
-      "redCards": 0,
-      "matches": 6
-    },
-    {
-      "player": "Ahmad Ahmod Khit",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 3,
-      "assists": 0,
-      "yellowCards": 2,
-      "redCards": 0,
-      "matches": 5
-    },
-    {
-      "player": "Peder Flatla",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 1,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 5
-    },
-    {
       "player": "Vemund Skjaker-Westby",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
@@ -343,23 +343,33 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 5
+      "matches": 6
     },
     {
       "player": "Mohammad Jonma Walid Hmidi",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
-      "goals": 2,
+      "goals": 3,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 5
     },
     {
       "player": "Andreas Larmerud",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 5
+    },
+    {
+      "player": "Aleksander Skeie Mylsbråten",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 2,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
@@ -376,17 +386,17 @@
       "matches": 4
     },
     {
-      "player": "Aleksander Skeie Mylsbråten",
+      "player": "Leon Dørum Mathiesen",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
-      "goals": 2,
+      "goals": 0,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
       "matches": 3
     },
     {
-      "player": "Leon Dørum Mathiesen",
+      "player": "Yared Michael",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
@@ -416,7 +426,7 @@
       "matches": 2
     },
     {
-      "player": "Yared Michael",
+      "player": "Ahmed Abdelhannan Hussein",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
@@ -447,16 +457,6 @@
     },
     {
       "player": "Stein Olav Nygaard",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
-    },
-    {
-      "player": "Ahmed Abdelhannan Hussein",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
