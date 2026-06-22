@@ -3,7 +3,7 @@
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper (kamper+hendelser)",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-06-21T20:52:46.378Z",
+  "fetchedAt": "2026-06-22T21:38:08.396Z",
   "players": [
     {
       "player": "Sebastian Kjær-Larssen",
@@ -33,7 +33,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 8
+      "matches": 9
     },
     {
       "player": "Leon Dørum Mathiesen",
@@ -43,7 +43,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 4
+      "matches": 5
     },
     {
       "player": "Jørgen Skeie Myrvang",
@@ -53,7 +53,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Andreas Larmerud",
@@ -63,7 +63,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 8
+      "matches": 9
     },
     {
       "player": "Vemund Skjaker-Westby",
@@ -73,7 +73,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 7
+      "matches": 8
     },
     {
       "player": "Gustav Ruud Nordgård",
@@ -119,11 +119,11 @@
       "player": "Magnus-Thiago Nordgård Sahertian",
       "team": "LHG G15",
       "ageGroup": "LHG G15",
-      "goals": 18,
+      "goals": 20,
       "assists": 0,
       "yellowCards": 2,
       "redCards": 0,
-      "matches": 9
+      "matches": 10
     },
     {
       "player": "Yared Michael",
@@ -133,7 +133,7 @@
       "assists": 0,
       "yellowCards": 1,
       "redCards": 0,
-      "matches": 8
+      "matches": 9
     },
     {
       "player": "Eirik Kjørven Berg",
@@ -141,9 +141,9 @@
       "ageGroup": "LHG G15",
       "goals": 5,
       "assists": 0,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0,
-      "matches": 9
+      "matches": 10
     },
     {
       "player": "Christopher Rabbe-Schanzleh",
@@ -163,7 +163,7 @@
       "assists": 0,
       "yellowCards": 1,
       "redCards": 0,
-      "matches": 7
+      "matches": 8
     },
     {
       "player": "Peder Flatla",
@@ -193,7 +193,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Marius Fredriksen Bergersen",
@@ -213,7 +213,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 5
+      "matches": 6
     },
     {
       "player": "Lukas Isaak",
@@ -233,7 +233,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 6
+      "matches": 7
     },
     {
       "player": "Goch Mayual",
@@ -243,7 +243,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 2
+      "matches": 3
     },
     {
       "player": "Jonas Parelius Haga",
