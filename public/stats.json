@@ -3,7 +3,7 @@
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper (kamper+hendelser)",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-08-20T19:55:34.819Z",
+  "fetchedAt": "2026-08-21T19:48:10.143Z",
   "players": [
     {
       "player": "Sebastian Kjær-Larssen",
@@ -521,7 +521,7 @@
       "ageGroup": "LHG G16",
       "goals": 0,
       "assists": 0,
-      "yellowCards": 0,
+      "yellowCards": 1,
       "redCards": 0,
       "matches": 1
     },
