@@ -3,7 +3,7 @@
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=11659&underside=kamper (kamper+hendelser)",
     "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=199003"
   ],
-  "fetchedAt": "2026-08-23T19:45:25.640Z",
+  "fetchedAt": "2026-08-24T19:55:17.877Z",
   "players": [
     {
       "player": "Sebastian Kjær-Larssen",
@@ -516,6 +516,16 @@
       "matches": 1
     },
     {
+      "player": "Eirik Kjørven Berg",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
       "player": "Ahmad Ahmod Khit",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
@@ -523,7 +533,17 @@
       "assists": 0,
       "yellowCards": 1,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
+    },
+    {
+      "player": "Yared Michael",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "matches": 2
     },
     {
       "player": "Aleksander Skeie Mylsbråten",
@@ -533,7 +553,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Andreas Larmerud",
@@ -543,17 +563,7 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
-    },
-    {
-      "player": "Eirik Kjørven Berg",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
       "player": "Goch Mayual",
@@ -563,20 +573,90 @@
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
-      "matches": 1
+      "matches": 2
     },
     {
-      "player": "Jørgen Skeie Myrvang",
+      "player": "Leon Dørum Mathiesen",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
       "assists": 0,
       "yellowCards": 0,
       "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Mohammad Jonma Walid Hmidi",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Rasmus Pedersen",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Sebastian Kjær-Larssen",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Sindre Urholmen Johansen",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Stein Olav Nygaard",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Vemund Skjaker-Westby",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "matches": 2
+    },
+    {
+      "player": "Ahmed Abdelhannan Hussein",
+      "team": "LHG G16",
+      "ageGroup": "LHG G16",
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
       "matches": 1
     },
     {
-      "player": "Leon Dørum Mathiesen",
+      "player": "Jørgen Skeie Myrvang",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
@@ -596,16 +676,6 @@
       "matches": 1
     },
     {
-      "player": "Mohammad Jonma Walid Hmidi",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
-    },
-    {
       "player": "Peder Flatla",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
@@ -616,7 +686,7 @@
       "matches": 1
     },
     {
-      "player": "Rasmus Pedersen",
+      "player": "Christopher Rabbe-Schanzleh",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
@@ -626,7 +696,7 @@
       "matches": 1
     },
     {
-      "player": "Sebastian Kjær-Larssen",
+      "player": "Daniel Meling Habberstad",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
@@ -636,37 +706,7 @@
       "matches": 1
     },
     {
-      "player": "Sindre Urholmen Johansen",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
-    },
-    {
-      "player": "Stein Olav Nygaard",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
-    },
-    {
-      "player": "Vemund Skjaker-Westby",
-      "team": "LHG G16",
-      "ageGroup": "LHG G16",
-      "goals": 0,
-      "assists": 0,
-      "yellowCards": 0,
-      "redCards": 0,
-      "matches": 1
-    },
-    {
-      "player": "Yared Michael",
+      "player": "Hans Olav Skau",
       "team": "LHG G16",
       "ageGroup": "LHG G16",
       "goals": 0,
